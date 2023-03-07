@@ -1,0 +1,65 @@
+#result
+{
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 30px;
+}
+
+#time-left
+{
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 30px;
+}
+
+.time-display
+{
+    color: red;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.result-display
+{
+    /* color: red; */
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.grid-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid
+{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+section button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.grid .square
+{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.square-mole
+{
+    background: blue;
+}
